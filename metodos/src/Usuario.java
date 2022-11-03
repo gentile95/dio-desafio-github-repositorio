@@ -21,5 +21,11 @@ public class Usuario{
 
     System.out.println(smartTv.canal);
 
+    smartTv.aumentarVolume();
+    smartTv.mudarCanal(24);
+
+    System.out.println("Volume: " + smartTv.volume);
+    System.out.println("Canal: " + smartTv.canal);
+
   }
 }
