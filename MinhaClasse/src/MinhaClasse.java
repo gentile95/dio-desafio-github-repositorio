@@ -1,6 +1,12 @@
 public class MinhaClasse{
   public static void main(String[] args) {
-    System.out.println("Oi, sou o terminal");
-    System.out.println("Aparentemente deu tudo certo!");
+    String nome = args[0];
+    String sobrenome = args[1];
+    int idade = Integer.valueOf(args[2]);
+    double altura = Double.valueOf(args[3]);
+
+    System.out.println("Olá, me chamo " + nome + " " + sobrenome);
+    System.out.println("Tenho " + idade + " anos");
+    System.out.println("Minha altura é " + altura + "m");
   }
 }
